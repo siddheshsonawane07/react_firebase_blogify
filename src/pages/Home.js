@@ -11,14 +11,14 @@ function Home({ isAuth }) {
       const data = await getDocs(postsCollectionRef);
       setPostList(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
     };
-
     getPosts();
-  }, [deletePost]);
+  }, []);
 
-  const deletePost = async (id) => {
+    const  deletePost = async (id) => {
     const postDoc = doc(db, "posts", id);
     await deleteDoc(postDoc);
   };
+
   return (
     <div className="homePage">
       {postLists.map((post) => {

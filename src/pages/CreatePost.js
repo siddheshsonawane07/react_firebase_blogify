@@ -19,6 +19,7 @@ function CreatePost({ isAuth }) {
     navigate("/");
   };
 
+  // eslint-disable-next-line
   useEffect(() => {
     if (!isAuth) {
       navigate("/login");
@@ -32,7 +33,7 @@ function CreatePost({ isAuth }) {
         <div className="inputGp">
           <label> Title:</label>
           <input
-            placeholder="Title..."
+            placeholder="Title"
             onChange={(event) => {
               setTitle(event.target.value);
             }}
@@ -41,7 +42,7 @@ function CreatePost({ isAuth }) {
         <div className="inputGp">
           <label> Post:</label>
           <textarea
-            placeholder="Post..."
+            placeholder="Post"
             onChange={(event) => {
               setPostText(event.target.value);
             }}

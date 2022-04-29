@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react_firebase_blogify/static/css/main.84e0e42a.chunk.css",
+    "main.js": "/react_firebase_blogify/static/js/main.7fb84555.chunk.js",
+    "main.js.map": "/react_firebase_blogify/static/js/main.7fb84555.chunk.js.map",
+    "runtime-main.js": "/react_firebase_blogify/static/js/runtime-main.3a47d53a.js",
+    "runtime-main.js.map": "/react_firebase_blogify/static/js/runtime-main.3a47d53a.js.map",
+    "static/js/2.a1dcfc27.chunk.js": "/react_firebase_blogify/static/js/2.a1dcfc27.chunk.js",
+    "static/js/2.a1dcfc27.chunk.js.map": "/react_firebase_blogify/static/js/2.a1dcfc27.chunk.js.map",
+    "static/js/3.00cbf76f.chunk.js": "/react_firebase_blogify/static/js/3.00cbf76f.chunk.js",
+    "static/js/3.00cbf76f.chunk.js.map": "/react_firebase_blogify/static/js/3.00cbf76f.chunk.js.map",
+    "index.html": "/react_firebase_blogify/index.html",
+    "static/css/main.84e0e42a.chunk.css.map": "/react_firebase_blogify/static/css/main.84e0e42a.chunk.css.map",
+    "static/js/2.a1dcfc27.chunk.js.LICENSE.txt": "/react_firebase_blogify/static/js/2.a1dcfc27.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a47d53a.js",
+    "static/js/2.a1dcfc27.chunk.js",
+    "static/css/main.84e0e42a.chunk.css",
+    "static/js/main.7fb84555.chunk.js"
+  ]
+}

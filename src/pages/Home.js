@@ -22,29 +22,26 @@ function Home({ isAuth }) {
     <div className="homePage">
       {postLists.map((post) => {
         return (
-          <div className="post">
-            <div className="postHeader">
-              <div className="title">
+          <><div className="container">
+            <div className="card">
+              <div className="card_header">
+                <img src={"https://source.unsplash.com/600x400/?computer"} alt="card__image" class="card__image" width="600" />
                 <h1> {post.title}</h1>
               </div>
-              <div className="deletePost">
-                {isAuth && post.author.id === auth.currentUser.uid && (
-                  <button
-                    onClick={() => {
-                      deletePost(post.id);
-                    }}
-                  >
-                    {" "}
-                    &#128465;
-                  </button>
-                )}
+              <div class="card__body">
+                <p>{post.postText}</p>
               </div>
             </div>
-            <div className="postTextContainer"> {post.postText} </div>
-            <h3>@{post.author.name}</h3>
-           </div>
+          </div><div className="card__footer">
+              <div className="user">
+                <img src={"https://i.pravatar.cc/40?img=1"} alt="user__image" class="user__image" />
+                <div className="user__info">
+                  <h5>{post.author.name}</h5>
+                </div>
+              </div>
+            </div></>
         );
-      })}
+      })} 
     </div>
   );
 }

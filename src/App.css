@@ -171,12 +171,12 @@ textarea {
 
 .post .postHeader {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   width: 100%;
 }
 
 .postHeader .title {
-  flex: 50%;
+  flex: 100%;
 }
 .postHeader .deletePost {
   flex: 50%;
@@ -187,7 +187,6 @@ textarea {
 
 .deletePost button {
   border: none;
-
   background: none;
   font-size: 30px;
   cursor: pointer;
@@ -200,4 +199,5 @@ textarea {
   width: 100%;
   overflow: hidden;
   overflow-y: auto;
+  font-family: sans-serif;
 }

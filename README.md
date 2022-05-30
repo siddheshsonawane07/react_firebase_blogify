@@ -10,5 +10,4 @@ To run this app follow the instructions:
 2) Enter "npm install" in the project terminal to install the desired npm modules required for the react project to run.
 3) Then enter "npm start" in the terminal to host the react app on your local server.
 
-The website is deployed with the help of Firebase hosting
-Website Deployed : https://blogify-8783c.web.app/
+The website is deployed with the help of Firebase hosting: https://blogify-8783c.web.app/
